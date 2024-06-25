@@ -1,0 +1,52 @@
+{
+  "defaultFields": [
+    {
+      "name": "id",
+      "type": "Row Number",
+      "options" : {
+        "blank": "0%"
+      }
+    },
+    {
+      "name": "first_name",
+      "type": "First Name",
+      "options" : {
+        "blank": "0%"
+      }
+    },
+    {
+      "name": "last_name",
+      "type": "Last Name",
+      "options" : {
+        "blank": "0%"
+      }
+    },
+    {
+      "name": "email",
+      "type": "Email Address",
+      "options" : {
+        "blank": "0%"
+      }
+    },
+    {
+      "name": "gender",
+      "type": "Gender",
+      "options" : {
+        "blank": "0%"
+      }
+    },
+    {
+      "name": "ip_address",
+      "type": "IP Address v4",
+      "options" : {
+        "blank": "0%"
+      }
+    }
+  ],
+  "defaultFormat": {
+    "lines": 10,
+    "format": "CSV",
+    "lineEnding": "Unix(LF)",
+    "model": "gpt-3.5-turbo"
+  }
+}

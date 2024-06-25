@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* global.css */
+.app {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.main-content {
+  flex: 5;
+  padding: 20px;
+  /* add styles for the main content area */
+}
+.bigger-symbol {
+  font-size: 2em; /* Adjust the font size as needed */
+}
+.custom-textarea {
+  width: 600px;
+  height: 200px;
+}
+
+.big-customer-textarea {
+  width: 1210px;
+  height: 500px;
+}
+.customer-input{
+  width: 150px;
+  font-size: 14px;
+  height: auto;
+  padding: 6px 8px ;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+.option-input{
+  width: 80px;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px 5px ;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.dropdown-item label {
+  margin-right: 2px;
+  font-size: 14px;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 150px;
+}
+
+.big-ant-select {
+  min-width: 300px;
+}
+.small-ant-select {
+  min-width: 150px;
+}
+
+

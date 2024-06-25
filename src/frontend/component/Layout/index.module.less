@@ -1,0 +1,57 @@
+@import '@/styles/variable.less';
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.sider {
+  width: @layout-nav-sidebar-width;
+  background: #002b3b;
+}
+
+.logo {
+  height: @layout-logo-height;
+  color: @white-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.menus {
+  background: #002b3b;
+  color: @white-color;
+
+  &:global(.ant-menu-inline) {
+    border: none;
+  }
+
+  :global(.ant-menu-sub) {
+    background: #002533;
+  }
+
+  :global(.ant-menu-item) {
+    a {
+      color: @white-color;
+    }
+
+    &:hover {
+      a {
+        color: @white-color;
+      }
+    }
+  }
+
+  :global(.ant-menu-item-selected) {
+    background: #04739c !important;
+  }
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}

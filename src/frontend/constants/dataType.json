@@ -1,0 +1,1229 @@
+{
+  "types": [
+    {
+      "id": 285,
+      "label": "Address Line 2",
+      "group": "Basic",
+      "examples": null,
+      "description": "Room, Apt, Floor, Suite, or PO box number"
+    },
+    {
+      "id": 279,
+      "label": "Airport Code",
+      "group": "Travel",
+      "examples": "LAX<br/>NWR<br/>JFK",
+      "description": null
+    },
+    {
+      "id": 276,
+      "label": "Airport Continent",
+      "group": "Travel",
+      "examples": "NA<br/>AF<br/>EU",
+      "description": null
+    },
+    {
+      "id": 280,
+      "label": "Airport Country Code",
+      "group": "Travel",
+      "examples": "US<br/>CA<br/>DE",
+      "description": null
+    },
+    {
+      "id": 278,
+      "label": "Airport Elevation (Feet)",
+      "group": "Travel",
+      "examples": "11<br/>200<br/>123",
+      "description": null
+    },
+    {
+      "id": 277,
+      "label": "Airport GPS Code",
+      "group": "Travel",
+      "examples": "WAOP<br/>YGDN<br/>ZGXN",
+      "description": null
+    },
+    {
+      "id": 274,
+      "label": "Airport Latitude",
+      "group": "Travel",
+      "examples": null,
+      "description": "The latitude of the airport"
+    },
+    {
+      "id": 275,
+      "label": "Airport Longitude",
+      "group": "Travel",
+      "examples": null,
+      "description": "The longitude of the airport"
+    },
+    {
+      "id": 282,
+      "label": "Airport Municipality",
+      "group": "Travel",
+      "examples": "Wenzhou<br/>Singleton<br/>Melbourne",
+      "description": null
+    },
+    {
+      "id": 283,
+      "label": "Airport Name",
+      "group": "Travel",
+      "examples": "Kodiak Airport<br/>Van Nuys Airport<br/>Halifax County Airport",
+      "description": null
+    },
+    {
+      "id": 281,
+      "label": "Airport Region Code",
+      "group": "Travel",
+      "examples": "US-PA<br/>AU-QLD<br/>MY-13",
+      "description": null
+    },
+    {
+      "id": 251,
+      "label": "Animal Common Name",
+      "group": "Nature",
+      "examples": "Wombat, common<br/>Owl, snowy<br/>Jungle kangaroo",
+      "description": null
+    },
+    {
+      "id": 252,
+      "label": "Animal Scientific Name",
+      "group": "Nature",
+      "examples": "Vombatus ursinus<br/>Nyctea scandiaca<br/>Macropus agilis",
+      "description": null
+    },
+    {
+      "id": 210,
+      "label": "App Bundle ID",
+      "group": "IT",
+      "examples": "com.google.powerflex<br/>com.microsoft.prodder",
+      "description": "Three part app bundle id:"
+    },
+    {
+      "id": 211,
+      "label": "App Name",
+      "group": "IT",
+      "examples": null,
+      "description": "Fake app names"
+    },
+    {
+      "id": 212,
+      "label": "App Version",
+      "group": "IT",
+      "examples": null,
+      "description": "Random 2 and 3 part app version numbers"
+    },
+    {
+      "id": 218,
+      "label": "Avatar",
+      "group": "Personal",
+      "examples": null,
+      "description": "Random avatar image url from Robohash"
+    },
+    {
+      "id": 207,
+      "label": "Base64 Image URL",
+      "group": "IT",
+      "examples": "data:image/png;base64,iVBORwoA...",
+      "description": "Base64 encoded image urls like:"
+    },
+    {
+      "id": 231,
+      "label": "Binomial Distribution",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates numbers based on a binomial distribution with a specific probability of success."
+    },
+    {
+      "id": 185,
+      "label": "Bitcoin Address",
+      "group": "Crypto",
+      "examples": "\u003cspan style=\"font-size:10px\"\u003e1EZ5PdVcsVEaaKYH37t8toLodJc97eooy6<br/>1HpzKTCbcJ57vkoQZCfhJyvZK97MRzktVk<br/>1BPny1b66pdZuZC87tJikS8EG5CHRYp4ni\u003c/span\u003e",
+      "description": null
+    },
+    {
+      "id": 179,
+      "label": "Blank",
+      "group": "Basic",
+      "examples": null,
+      "description": "Always generates a null value"
+    },
+    {
+      "id": 129,
+      "label": "Boolean",
+      "group": "Basic",
+      "examples": "true<br/>false",
+      "description": null
+    },
+    {
+      "id": 227,
+      "label": "Buzzword",
+      "group": "Personal",
+      "examples": "contextually-based<br/>radical<br/>proactive",
+      "description": null
+    },
+    {
+      "id": 240,
+      "label": "Car Make",
+      "group": "Car",
+      "examples": "Honda<br/>Ford<br/>Pontiac",
+      "description": null
+    },
+    {
+      "id": 241,
+      "label": "Car Model",
+      "group": "Car",
+      "examples": "Prelude<br/>Mustang<br/>Trans Am",
+      "description": null
+    },
+    {
+      "id": 242,
+      "label": "Car Model Year",
+      "group": "Car",
+      "examples": "1994<br/>2008<br/>2001",
+      "description": null
+    },
+    {
+      "id": 258,
+      "label": "Car VIN",
+      "group": "Car",
+      "examples": null,
+      "description": "A random car VIN number, not correlated to other car fields."
+    },
+    {
+      "id": 228,
+      "label": "Catch Phrase",
+      "group": "Personal",
+      "examples": null,
+      "description": "Multiple buzzwords strung together"
+    },
+    {
+      "id": 256,
+      "label": "Character Sequence",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Create simple sequences of characters, digits, and symbols"
+    },
+    {
+      "id": 114,
+      "label": "City",
+      "group": "Location",
+      "examples": "New York<br/>Berlin<br/>London",
+      "description": null
+    },
+    {
+      "id": 130,
+      "label": "Color",
+      "group": "Basic",
+      "examples": "Red<br/>Blue<br/>Black",
+      "description": null
+    },
+    {
+      "id": 157,
+      "label": "Company Name",
+      "group": "Personal",
+      "examples": "Google<br/>Home Depot<br/>General Electric",
+      "description": null
+    },
+    {
+      "id": 270,
+      "label": "Construction Heavy Equipment",
+      "group": "Construction",
+      "examples": "Compactor<br/>Grader<br/>Trencher",
+      "description": null
+    },
+    {
+      "id": 268,
+      "label": "Construction Material",
+      "group": "Construction",
+      "examples": "Glass<br/>Plastic<br/>Aluminum",
+      "description": null
+    },
+    {
+      "id": 273,
+      "label": "Construction Role",
+      "group": "Construction",
+      "examples": "Construction Manager<br/>Supervisor<br/>Supervisor",
+      "description": null
+    },
+    {
+      "id": 272,
+      "label": "Construction Standard Cost Code",
+      "group": "Construction",
+      "examples": "11-200 - Water Supply and Treatment Equipment<br/>1-518 - Temporary Water<br/>1-542 - Construction Scaffolding and Platforms",
+      "description": null
+    },
+    {
+      "id": 269,
+      "label": "Construction Subcontract Category",
+      "group": "Construction",
+      "examples": "Masonry<br/>Roofing (Asphalt)<br/>EIFS",
+      "description": null
+    },
+    {
+      "id": 271,
+      "label": "Construction Trade",
+      "group": "Construction",
+      "examples": "Stucco Mason<br/>Welder<br/>Ironworker",
+      "description": null
+    },
+    {
+      "id": 115,
+      "label": "Country",
+      "group": "Location",
+      "examples": "Germany<br/>France<br/>Japan",
+      "description": null
+    },
+    {
+      "id": 186,
+      "label": "Country Code",
+      "group": "Location",
+      "examples": "ES<br/>GR<br/>FR",
+      "description": null
+    },
+    {
+      "id": 177,
+      "label": "Credit Card #",
+      "group": "Commerce",
+      "examples": "4017959045824<br/>5349690971837932<br/>372301294706546",
+      "description": null
+    },
+    {
+      "id": 178,
+      "label": "Credit Card Type",
+      "group": "Commerce",
+      "examples": "visa<br/>mastercard<br/>americanexpress",
+      "description": null
+    },
+    {
+      "id": 155,
+      "label": "Currency",
+      "group": "Commerce",
+      "examples": "Dollar<br/>Euro<br/>Peso",
+      "description": null
+    },
+    {
+      "id": 156,
+      "label": "Currency Code",
+      "group": "Commerce",
+      "examples": "USD<br/>EUR<br/>MXN",
+      "description": null
+    },
+    {
+      "id": 137,
+      "label": "Custom List",
+      "group": "Basic",
+      "examples": null,
+      "description": "Picks items randomly or sequentially from a custom list of values"
+    },
+    {
+      "id": 138,
+      "label": "Dataset Column",
+      "group": "Basic",
+      "examples": null,
+      "description": "Pick records randomly or sequentially from one of my datasets"
+    },
+    {
+      "id": 131,
+      "label": "Datetime",
+      "group": "Basic",
+      "examples": "07/04/2013<br/>4.7.2013<br/>04-Jul-2013",
+      "description": null
+    },
+    {
+      "id": 235,
+      "label": "Department (Corporate)",
+      "group": "Personal",
+      "examples": "Human Resources<br/>Accounting<br/>Engineering",
+      "description": null
+    },
+    {
+      "id": 234,
+      "label": "Department (Retail)",
+      "group": "Commerce",
+      "examples": "Grocery<br/>Books<br/>Health \u0026 Beauty",
+      "description": null
+    },
+    {
+      "id": 257,
+      "label": "Digit Sequence",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Create simple sequences of characters, digits, and symbols"
+    },
+    {
+      "id": 143,
+      "label": "Domain Name",
+      "group": "IT",
+      "examples": "google.com<br/>wikipedia.org<br/>nih.gov",
+      "description": null
+    },
+    {
+      "id": 193,
+      "label": "Drug Company",
+      "group": "Health",
+      "examples": "\u003cspan style=\"font-size:10px\"\u003eEli Lilly and Company<br/>Novartis Pharmaceuticals Corporation<br/>Teva Pharmaceuticals USA Inc\u003c/span\u003e",
+      "description": null
+    },
+    {
+      "id": 191,
+      "label": "Drug Name (Brand)",
+      "group": "Health",
+      "examples": "Cialis<br/>Nexium<br/>Lipitor",
+      "description": null
+    },
+    {
+      "id": 192,
+      "label": "Drug Name (Generic)",
+      "group": "Health",
+      "examples": "Naproxen Sodium<br/>Selenium Sulfide<br/>Acetaminophen",
+      "description": null
+    },
+    {
+      "id": 209,
+      "label": "Dummy Image URL",
+      "group": "IT",
+      "examples": "http://dummyimage.com/250x100",
+      "description": "Image url from dummyimage.com"
+    },
+    {
+      "id": 230,
+      "label": "DUNS Number",
+      "group": "Personal",
+      "examples": null,
+      "description": "Randomly generated DUNS numbers"
+    },
+    {
+      "id": 226,
+      "label": "EIN",
+      "group": "Personal",
+      "examples": null,
+      "description": "Randomly generated employer identification numbers"
+    },
+    {
+      "id": 144,
+      "label": "Email Address",
+      "group": "IT",
+      "examples": "jdoe@gmail.com<br/>twilliams@hotmail.com<br/>ajones@yahoo.com",
+      "description": null
+    },
+    {
+      "id": 133,
+      "label": "Encrypt",
+      "group": "Basic",
+      "examples": null,
+      "description": "Simulates encrypted text"
+    },
+    {
+      "id": 262,
+      "label": "Ethereum Address",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Ethereum address"
+    },
+    {
+      "id": 233,
+      "label": "Exponential Distribution",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates numbers based on an exponential distribution with a specific λ rate."
+    },
+    {
+      "id": 225,
+      "label": "Fake Company Name",
+      "group": "Personal",
+      "examples": "Morar Group<br/>Stark-Glover<br/>Sawayn and Sons",
+      "description": null
+    },
+    {
+      "id": 172,
+      "label": "Family Name (Chinese)",
+      "group": "Personal",
+      "examples": "赵<br/>钱<br/>孙",
+      "description": null
+    },
+    {
+      "id": 190,
+      "label": "FDA NDC Code",
+      "group": "Health",
+      "examples": "58443-0022<br/>58517-001<br/>44924-011",
+      "description": null
+    },
+    {
+      "id": 188,
+      "label": "File Name",
+      "group": "IT",
+      "examples": "lobortis.pptx<br/>erat_volutpat.csv<br/>TortorSollicitudin.docx",
+      "description": null
+    },
+    {
+      "id": 159,
+      "label": "First Name",
+      "group": "Personal",
+      "examples": "Jim<br/>Mark<br/>Sasha",
+      "description": null
+    },
+    {
+      "id": 171,
+      "label": "First Name (European)",
+      "group": "Personal",
+      "examples": "Görel<br/>Marie-josée<br/>Hélène",
+      "description": null
+    },
+    {
+      "id": 158,
+      "label": "First Name (Female)",
+      "group": "Personal",
+      "examples": "Susan<br/>Jessica<br/>Sasha",
+      "description": null
+    },
+    {
+      "id": 162,
+      "label": "First Name (Male)",
+      "group": "Personal",
+      "examples": "Mark<br/>Bob<br/>Tim",
+      "description": null
+    },
+    {
+      "id": 128,
+      "label": "Formula",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Compute a value based on data from other columns"
+    },
+    {
+      "id": 134,
+      "label": "Frequency",
+      "group": "Basic",
+      "examples": "Never, Once, Seldom, Often, Daily, Weekly, Monthly, Yearly",
+      "description": null
+    },
+    {
+      "id": 160,
+      "label": "Full Name",
+      "group": "Personal",
+      "examples": "Nancy Smith<br/>Tim Fisher<br/>Al Jones",
+      "description": null
+    },
+    {
+      "id": 166,
+      "label": "Gender",
+      "group": "Personal",
+      "examples": "Female<br/>Male<br/>Non-binary",
+      "description": null
+    },
+    {
+      "id": 165,
+      "label": "Gender (abbrev)",
+      "group": "Personal",
+      "examples": "M<br/>F",
+      "description": null
+    },
+    {
+      "id": 261,
+      "label": "Gender (Binary)",
+      "group": "Personal",
+      "examples": "Female<br/>Male",
+      "description": null
+    },
+    {
+      "id": 260,
+      "label": "Gender (Facebook)",
+      "group": "Personal",
+      "examples": null,
+      "description": "The Facebook gender list as of 2021"
+    },
+    {
+      "id": 232,
+      "label": "Geometric Distribution",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates numbers based on a geometric distribution with a specific probability of success."
+    },
+    {
+      "id": 170,
+      "label": "Given Name (Chinese)",
+      "group": "Personal",
+      "examples": "崇杉<br/>永鑫<br/>鑫蕾",
+      "description": null
+    },
+    {
+      "id": 135,
+      "label": "GUID",
+      "group": "Basic",
+      "examples": "ddee19bc-84fd-4627-897c-dec7c8010977",
+      "description": "36 character hex guid"
+    },
+    {
+      "id": 136,
+      "label": "Hex Color",
+      "group": "Basic",
+      "examples": "#142a0b<br/>#F0F0F0<br/>#0066FF",
+      "description": null
+    },
+    {
+      "id": 184,
+      "label": "IBAN",
+      "group": "Commerce",
+      "examples": "\u003cspan style=\"font-size:10px\"\u003eFR73 5960 2948 07N1 L9TC PVYX E17<br/>SE85 4302 3680 7231 4238 1624\u003c/br\u003eHU12 2842 8140 5998 8717 3520 7242\u003c/span\u003e",
+      "description": null
+    },
+    {
+      "id": 219,
+      "label": "ICD10 Diagnosis Code",
+      "group": "Health",
+      "examples": null,
+      "description": "ICD10 diagnosis code. Source: cms.gov"
+    },
+    {
+      "id": 221,
+      "label": "ICD10 Dx Desc (Long)",
+      "group": "Health",
+      "examples": null,
+      "description": "Long description of diagnosis from ICD10. Source: cms.gov"
+    },
+    {
+      "id": 220,
+      "label": "ICD10 Dx Desc (Short)",
+      "group": "Health",
+      "examples": null,
+      "description": "Short description of diagnosis from ICD10. Source: cms.gov"
+    },
+    {
+      "id": 224,
+      "label": "ICD10 Proc Desc (Long)",
+      "group": "Health",
+      "examples": null,
+      "description": "Long description of procedure from ICD10. Source: cms.gov"
+    },
+    {
+      "id": 223,
+      "label": "ICD10 Proc Desc (Short)",
+      "group": "Health",
+      "examples": null,
+      "description": "Short description of procedure from ICD10. Source: cms.gov"
+    },
+    {
+      "id": 222,
+      "label": "ICD10 Procedure Code",
+      "group": "Health",
+      "examples": null,
+      "description": "ICD10 procedure code. Source: cms.gov"
+    },
+    {
+      "id": 194,
+      "label": "ICD9 Diagnosis Code",
+      "group": "Health",
+      "examples": null,
+      "description": "ICD9 diagnosis code. Source: cms.gov"
+    },
+    {
+      "id": 196,
+      "label": "ICD9 Dx Desc (Long)",
+      "group": "Health",
+      "examples": null,
+      "description": "Long description of diagnosis from ICD9. Source: cms.gov"
+    },
+    {
+      "id": 195,
+      "label": "ICD9 Dx Desc (Short)",
+      "group": "Health",
+      "examples": null,
+      "description": "Short description of diagnosis from ICD9. Source: cms.gov"
+    },
+    {
+      "id": 199,
+      "label": "ICD9 Proc Desc (Long)",
+      "group": "Health",
+      "examples": null,
+      "description": "Long description of procedure from ICD9. Source: cms.gov"
+    },
+    {
+      "id": 198,
+      "label": "ICD9 Proc Desc (Short)",
+      "group": "Health",
+      "examples": null,
+      "description": "Short description of procedure from ICD9. Source: cms.gov"
+    },
+    {
+      "id": 197,
+      "label": "ICD9 Procedure Code",
+      "group": "Health",
+      "examples": null,
+      "description": "ICD9 procedure code. Source: cms.gov"
+    },
+    {
+      "id": 145,
+      "label": "IP Address v4",
+      "group": "IT",
+      "examples": "121.150.202.132",
+      "description": null
+    },
+    {
+      "id": 216,
+      "label": "IP Address v4 CIDR",
+      "group": "IT",
+      "examples": "188.245.97.43/27",
+      "description": null
+    },
+    {
+      "id": 146,
+      "label": "IP Address v6",
+      "group": "IT",
+      "examples": "770:44c0:1c4:9996:2fd:6907:3045:9627",
+      "description": null
+    },
+    {
+      "id": 217,
+      "label": "IP Address v6 CIDR",
+      "group": "IT",
+      "examples": "\u003cspan style=\"font-size:9.5px\"\u003e9ea4:2b0b:11ba:47a3:47a8:ede4:2ddd:c5f8/115\u003c/span\u003e",
+      "description": null
+    },
+    {
+      "id": 176,
+      "label": "ISBN",
+      "group": "Basic",
+      "examples": "574398570-7<br/>938492119-X<br/>758622794-2",
+      "description": null
+    },
+    {
+      "id": 200,
+      "label": "Job Title",
+      "group": "Personal",
+      "examples": "Design Engineer<br/>General Manager<br/>Help Desk Technician",
+      "description": null
+    },
+    {
+      "id": 183,
+      "label": "JSON Array",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Generates an array of objects in json format."
+    },
+    {
+      "id": 167,
+      "label": "Language",
+      "group": "Personal",
+      "examples": "German<br/>English<br/>Spanish",
+      "description": null
+    },
+    {
+      "id": 161,
+      "label": "Last Name",
+      "group": "Personal",
+      "examples": "Smith<br/>Jones<br/>Miller",
+      "description": null
+    },
+    {
+      "id": 174,
+      "label": "Latitude",
+      "group": "Location",
+      "examples": "48.52469361225269<br/>72.26886762838888<br/>-12.592370752117404",
+      "description": null
+    },
+    {
+      "id": 206,
+      "label": "LinkedIn Skill",
+      "group": "Personal",
+      "examples": "Algorithms<br/>Sports Nutrition<br/>Payroll",
+      "description": null
+    },
+    {
+      "id": 173,
+      "label": "Longitude",
+      "group": "Location",
+      "examples": "-45.15259533671917<br/>115.70563293321999<br/>81.9426325226724",
+      "description": null
+    },
+    {
+      "id": 150,
+      "label": "MAC Address",
+      "group": "IT",
+      "examples": "2C-D6-9B-77-E5-0B<br/>2C:D6:9B:77:E5:0B<br/>2c:d6:9b:77:e5:0b",
+      "description": null
+    },
+    {
+      "id": 213,
+      "label": "MD5",
+      "group": "IT",
+      "examples": null,
+      "description": "Random hex encoded MD5 hash"
+    },
+    {
+      "id": 287,
+      "label": "Medicare Beneficiary ID",
+      "group": "Health",
+      "examples": null,
+      "description": "MBI used in the US Medicare System"
+    },
+    {
+      "id": 189,
+      "label": "MIME Type",
+      "group": "IT",
+      "examples": "text/plain<br/>image/png<br/>application/pdf",
+      "description": null
+    },
+    {
+      "id": 288,
+      "label": "Mobile Device Brand",
+      "group": "Products",
+      "examples": "Sony<br/>Samsung<br/>Apple",
+      "description": null
+    },
+    {
+      "id": 289,
+      "label": "Mobile Device Model",
+      "group": "Products",
+      "examples": "Xperia Z3<br/>Galaxy S5<br/>iPhone 6",
+      "description": null
+    },
+    {
+      "id": 290,
+      "label": "Mobile Device OS",
+      "group": "Products",
+      "examples": "Android<br/>iOS",
+      "description": null
+    },
+    {
+      "id": 291,
+      "label": "Mobile Device Release Date",
+      "group": "Products",
+      "examples": "2014<br/>2015<br/>2016",
+      "description": null
+    },
+    {
+      "id": 154,
+      "label": "Money",
+      "group": "Commerce",
+      "examples": "$3.00<br/>£12.94<br/>€127,54",
+      "description": null
+    },
+    {
+      "id": 187,
+      "label": "MongoDB ObjectID",
+      "group": "Basic",
+      "examples": null,
+      "description": "Globally unique identifiers for MongoDB objects"
+    },
+    {
+      "id": 250,
+      "label": "Movie Genres",
+      "group": "Products",
+      "examples": "Action | Suspense<br/>Thriller<br/>Comedy",
+      "description": null
+    },
+    {
+      "id": 249,
+      "label": "Movie Title",
+      "group": "Products",
+      "examples": "Goodfellas<br/>Titanic<br/>Silverado",
+      "description": null
+    },
+    {
+      "id": 259,
+      "label": "Nato Phonetic",
+      "group": "Basic",
+      "examples": "Whiskey<br/>Alpha<br/>Bravo",
+      "description": null
+    },
+    {
+      "id": 205,
+      "label": "Naughty String",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Strings which have a high probability of causing issues when used as user-input data."
+    },
+    {
+      "id": 238,
+      "label": "NHS Number",
+      "group": "Health",
+      "examples": null,
+      "description": "10-digit NHS number with mod11 checksum"
+    },
+    {
+      "id": 180,
+      "label": "Normal Distribution",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates random numbers in a normal distribution using the Box-Muller algorithm"
+    },
+    {
+      "id": 139,
+      "label": "Number",
+      "group": "Basic",
+      "examples": "0.25<br/>5.2<br/>1000",
+      "description": null
+    },
+    {
+      "id": 153,
+      "label": "Paragraphs",
+      "group": "Basic",
+      "examples": null,
+      "description": "Chosen randomly from lorem ipsum"
+    },
+    {
+      "id": 141,
+      "label": "Password",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generate passwords with customizable requirements"
+    },
+    {
+      "id": 286,
+      "label": "Password Hash",
+      "group": "Basic",
+      "examples": null,
+      "description": "The bcrypt hash of a randomly generated password"
+    },
+    {
+      "id": 116,
+      "label": "Phone",
+      "group": "Location",
+      "examples": "8-(598)633-6672",
+      "description": null
+    },
+    {
+      "id": 253,
+      "label": "Plant Common Name",
+      "group": "Nature",
+      "examples": "Abietinella Moss<br/>Silver Fir<br/>Sedge",
+      "description": null
+    },
+    {
+      "id": 254,
+      "label": "Plant Family",
+      "group": "Nature",
+      "examples": "Thuidiaceae<br/>Pinaceae<br/>Cyperaceae",
+      "description": null
+    },
+    {
+      "id": 255,
+      "label": "Plant Scientific Name",
+      "group": "Nature",
+      "examples": "Abietinella abietina<br/>Abies alba<br/>Abildgaardia Vahl",
+      "description": null
+    },
+    {
+      "id": 208,
+      "label": "Poisson Distribution",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates numbers based on a Poisson distribution with a specific mean value."
+    },
+    {
+      "id": 125,
+      "label": "Postal Code",
+      "group": "Location",
+      "examples": null,
+      "description": "Region-specific postal codes (not available for all locations)."
+    },
+    {
+      "id": 239,
+      "label": "Product (Grocery)",
+      "group": "Products",
+      "examples": "Tomato - Green<br/>Spinach - Baby<br/>Avocado",
+      "description": null
+    },
+    {
+      "id": 168,
+      "label": "Race",
+      "group": "Personal",
+      "examples": "Filipino<br/>Venezuelan<br/>Asian",
+      "description": null
+    },
+    {
+      "id": 127,
+      "label": "Regular Expression",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Generate random data based on a regular expression"
+    },
+    {
+      "id": 237,
+      "label": "Repeating Element",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Repeats an XML element a specified number of times"
+    },
+    {
+      "id": 140,
+      "label": "Row Number",
+      "group": "Basic",
+      "examples": "1<br/>2<br/>3",
+      "description": null
+    },
+    {
+      "id": 201,
+      "label": "Scenario",
+      "group": "Advanced",
+      "examples": "Generates a number using a saved scenario",
+      "description": null
+    },
+    {
+      "id": 152,
+      "label": "Sentences",
+      "group": "Basic",
+      "examples": null,
+      "description": "Chosen randomly from lorem ipsum"
+    },
+    {
+      "id": 182,
+      "label": "Sequence",
+      "group": "Basic",
+      "examples": null,
+      "description": "Generates a sequence of numbers with adjustable step and repeat options."
+    },
+    {
+      "id": 214,
+      "label": "SHA1",
+      "group": "IT",
+      "examples": null,
+      "description": "Random hex encoded SHA1 hash"
+    },
+    {
+      "id": 215,
+      "label": "SHA256",
+      "group": "IT",
+      "examples": null,
+      "description": "Random hex encoded SHA256 hash"
+    },
+    {
+      "id": 169,
+      "label": "Shirt Size",
+      "group": "Personal",
+      "examples": "S<br/>M<br/>L",
+      "description": null
+    },
+    {
+      "id": 142,
+      "label": "Short Hex Color",
+      "group": "Basic",
+      "examples": "#14b<br/>#a32<br/>#926",
+      "description": null
+    },
+    {
+      "id": 229,
+      "label": "Slogan",
+      "group": "Personal",
+      "examples": null,
+      "description": "Randomly generated marketing slogans"
+    },
+    {
+      "id": 203,
+      "label": "SQL Expression",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Specify a SQL expression to use as the inserted value."
+    },
+    {
+      "id": 181,
+      "label": "SSN",
+      "group": "Personal",
+      "examples": "678-59-9455<br/>312-20-4597<br/>684-62-5799",
+      "description": null
+    },
+    {
+      "id": 119,
+      "label": "State",
+      "group": "Location",
+      "examples": null,
+      "description": "State/Province names, US and worldwide"
+    },
+    {
+      "id": 120,
+      "label": "State (abbrev)",
+      "group": "Location",
+      "examples": null,
+      "description": "Two character state/province abbreviations, US and worldwide"
+    },
+    {
+      "id": 247,
+      "label": "Stock Industry",
+      "group": "Commerce",
+      "examples": "Semiconductors<br/>Major Banks<br/>Oil \u0026 Gas Production",
+      "description": null
+    },
+    {
+      "id": 243,
+      "label": "Stock Market",
+      "group": "Commerce",
+      "examples": "NYSE<br/>NASDAQ",
+      "description": null
+    },
+    {
+      "id": 248,
+      "label": "Stock Market Cap",
+      "group": "Commerce",
+      "examples": "$33.03B<br/>$54.29M<br/>$41.02M",
+      "description": null
+    },
+    {
+      "id": 244,
+      "label": "Stock Name",
+      "group": "Commerce",
+      "examples": "Microsoft Corporation<br/>NetApp, Inc.<br/>The Bancorp, Inc.",
+      "description": null
+    },
+    {
+      "id": 246,
+      "label": "Stock Sector",
+      "group": "Commerce",
+      "examples": "Technology<br/>Capital Goods<br/>Finance",
+      "description": null
+    },
+    {
+      "id": 245,
+      "label": "Stock Symbol",
+      "group": "Commerce",
+      "examples": "MSFT<br/>NTAP<br/>TBBK",
+      "description": null
+    },
+    {
+      "id": 121,
+      "label": "Street Address",
+      "group": "Location",
+      "examples": "6449 Pine View Drive",
+      "description": "Street number, name, and suffix"
+    },
+    {
+      "id": 122,
+      "label": "Street Name",
+      "group": "Location",
+      "examples": "Pine View",
+      "description": "A street name (excluding the suffix)"
+    },
+    {
+      "id": 123,
+      "label": "Street Number",
+      "group": "Location",
+      "examples": "6449",
+      "description": "A street number between 1 and 5 digits"
+    },
+    {
+      "id": 124,
+      "label": "Street Suffix",
+      "group": "Location",
+      "examples": "Drive<br/>Terrace<br/>Street",
+      "description": null
+    },
+    {
+      "id": 163,
+      "label": "Suffix",
+      "group": "Personal",
+      "examples": "Jr<br/>Sr<br/>III",
+      "description": null
+    },
+    {
+      "id": 126,
+      "label": "Template",
+      "group": "Advanced",
+      "examples": null,
+      "description": "Concatenate values from several columns into one"
+    },
+    {
+      "id": 263,
+      "label": "Tezos Account",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Tezos account"
+    },
+    {
+      "id": 266,
+      "label": "Tezos Block",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Tezos block"
+    },
+    {
+      "id": 264,
+      "label": "Tezos Contract",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Tezos contract"
+    },
+    {
+      "id": 265,
+      "label": "Tezos Operation",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Tezos operation"
+    },
+    {
+      "id": 267,
+      "label": "Tezos Signature",
+      "group": "Crypto",
+      "examples": null,
+      "description": "A random Tezos signature"
+    },
+    {
+      "id": 132,
+      "label": "Time",
+      "group": "Basic",
+      "examples": "3:30 PM<br/>15:30",
+      "description": null
+    },
+    {
+      "id": 175,
+      "label": "Time Zone",
+      "group": "Location",
+      "examples": "America/Los_Angeles<br/>Europe/Budapest<br/>Pacific/Fiji",
+      "description": null
+    },
+    {
+      "id": 164,
+      "label": "Title",
+      "group": "Personal",
+      "examples": "Mr<br/>Ms<br/>Dr",
+      "description": null
+    },
+    {
+      "id": 147,
+      "label": "Top Level Domain",
+      "group": "IT",
+      "examples": "com<br/>edu<br/>org",
+      "description": null
+    },
+    {
+      "id": 284,
+      "label": "ULID",
+      "group": "Basic",
+      "examples": null,
+      "description": "Universally Unique Lexicographically-sortable Identifier"
+    },
+    {
+      "id": 236,
+      "label": "University",
+      "group": "Personal",
+      "examples": "The Johns Hopkins University<br/>Pepperdine University<br/>University of Texas",
+      "description": null
+    },
+    {
+      "id": 148,
+      "label": "URL",
+      "group": "IT",
+      "examples": "https://facebook.com<br/>http://google.com/path?foo=bar<br/>/foo/bar",
+      "description": null
+    },
+    {
+      "id": 202,
+      "label": "User Agent",
+      "group": "IT",
+      "examples": null,
+      "description": "A user agent string from a popular web browser or bot"
+    },
+    {
+      "id": 149,
+      "label": "Username",
+      "group": "IT",
+      "examples": "jdoe<br/>twilliams<br/>jfang",
+      "description": null
+    },
+    {
+      "id": 151,
+      "label": "Words",
+      "group": "Basic",
+      "examples": null,
+      "description": "Chosen randomly from lorem ipsum"
+    }
+  ]
+}

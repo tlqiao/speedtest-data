@@ -1,0 +1,90 @@
+.modal {
+  .header {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+  }
+
+  :global {
+    .ant-modal-content {
+      background-color: #222;
+      color: #fff;
+    }
+    .ant-modal-header {
+      background-color: #222;
+      margin-right: 24px;
+      color: #fff;
+    }
+    .ant-modal-body {
+      display: flex;
+      height: calc(100vh - 304px);
+      overflow: hidden;
+    }
+    .ant-modal-close-icon {
+      color: #fff;
+    }
+    .ant-input-affix-wrapper {
+      background: inherit !important;
+      color: #fff !important;
+      width: 250px;
+    }
+    .ant-input {
+      background: inherit;
+      color: #fff;
+
+      &::placeholder {
+        color: #d1d0d0;
+      }
+    }
+  }
+}
+
+.typeGroupList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #2D2D2D;
+  overflow: auto;
+  min-width: 160px;
+
+  .groupItem {
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #2D2D2D;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #555555;
+    }
+
+    &.active {
+      background-color: #424242;
+    }
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.card {
+  width: 240px;
+  cursor: pointer;
+  height: 110px;
+  padding: 12px;
+  overflow: hidden;
+  border-radius: 7px;
+
+  &:hover {
+    background-color: #303030;
+  }
+
+  .desc {
+    opacity: 0.6;
+  }
+}

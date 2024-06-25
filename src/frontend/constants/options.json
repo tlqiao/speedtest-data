@@ -1,0 +1,122 @@
+{ "data":
+   [
+     {
+       "type": "Binomial Distribution",
+       "options": {
+         "success probability": 0.5,
+         "blank": "0%"
+       }
+     },
+     {
+       "type": "Normal Distribution",
+       "options": {
+         "mean": 0,
+         "std.dev": 1,
+         "decimals": 2,
+         "blank": "0%"
+       }
+     },
+     {"type": "Poisson Distribution",
+       "options": {
+         "mean": 0,
+         "blank": "0%"
+       }
+     },
+     {"type": "Exponential Distribution",
+       "options": {
+         "λ": 0,
+         "blank": "0%"
+       }
+     },
+     {"type": "Geometric Distribution",
+       "options": {
+         "success probability": 0,
+         "blank": "0%"
+       }
+     },
+     {"type": "Normal Distribution",
+       "options": {
+         "mean": 0,
+         "std.dev": 1,
+         "decimals": 2,
+         "blank": "0%"
+       }
+     },
+     {"type": "Number",
+       "options": {
+         "min": 1,
+         "max": 100,
+         "decimals": 0,
+         "blank": "0%"
+       }
+     },
+     {"type": "Paragraphs",
+       "options": {
+         "at least": 1,
+         "but no more than": 3,
+         "blank": "0%"
+       }
+     },
+     {"type": "Password",
+       "options": {
+         "minimum length": 8,
+         "upper": 1,
+         "lower": 1,
+         "numbers": 1,
+         "symbols": 1,
+         "blank": "0%"
+       }
+     },
+     {"type": "Poisson Distribution",
+       "options": {
+         "mean": 1,
+         "blank": "0%"
+       }
+     },
+     {"type": "Sentences",
+       "options": {
+         "at least": 1,
+         "but no more than": 10,
+         "blank": "0%"
+       }
+     },
+     {"type": "Sequence",
+       "options": {
+         "start at": 1,
+         "Step": 1,
+         "repeat": 1,
+         "restart at":1,
+         "blank": "0%"
+       }
+     },
+     {"type": "Words",
+       "options": {
+         "at least": 10,
+         "but no more than":20,
+         "blank": "0%"
+       }
+     },
+     {"type": "Money",
+       "options": {
+         "between": 0,
+         "and":10,
+         "in":"￥,$,€,￡",
+         "blank": "0%"
+       }
+     },
+     {"type": "Avatar",
+       "options": {
+         "size": 50,
+         "X": 50,
+         "format":"png,bmp,jpg",
+         "blank": "0%"
+       }
+     },
+     {
+     "type": "default",
+       "options": {
+         "blank": "0%"
+       }
+     }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+ "DBType": ["mysql","postgresql"],
+  "Language": ["javascript","python"],
+  "DBClient": ["mysql","node-postgres"],
+  "Model": ["gpt-3.5-turbo","gpt-4-turbo","moonshot-v1-8k"],
+  "Format": ["CSV"],
+  "LineEnding": ["Unix(LF)","Windows(CRLF)"]
+}

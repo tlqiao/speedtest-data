@@ -1,0 +1,25 @@
+.field-input{
+    width: 180px;
+    font-size: 16px;
+    height: auto;
+    padding: 5px 10px ;
+    border-radius: 2px;
+    border: 1px solid;
+}
+.chooseTypeButton {
+    display: flex;
+    height: auto;
+    width: 180px;
+    padding: 5px 10px ;
+    border-radius: 2px;
+    border: 1px solid;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.dropdown-arrow {
+    margin-left: 8px;
+    font-size: 10px;
+    transition: transform 0.3s ease;
+}
+
