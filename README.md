@@ -32,3 +32,9 @@ For GenData, upload dataset csv file must include field name
 ### `Erros solution`
 5000 port has been used issue can be fixed if user disable AirPlay Receiver. It is only an issue for M1
 
+### `App showcase`
+App showcase see [here](https://www.bilibili.com/video/BV1hm421G7Kw/?vd_source=3ded1b3c4a48f2c92f768cd60a0bb913)
+
+### `Home page`
+![App Screenshot](./static/testdata.png)
+
